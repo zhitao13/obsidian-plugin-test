@@ -16,29 +16,37 @@ vault content and the plugin code live side by side and don't interact.
 
 # Workflow: when the user shares an idea
 
-1. **Elaborate, don't transcribe.** Take what the user says and write it up
-   as a real note: clear title, organized sections, expand on implications
-   or open questions where useful. Don't just paste their message verbatim.
-2. **File name**: Title Case matching the note's `# Heading`, saved as
-   `notes/<Title Case Name>.md`. Spaces are fine (Obsidian handles them).
-3. **Frontmatter** at the top of every note:
+Notes are written in **Chinese** (the user's notes are primarily Chinese).
+Headings, body text, and tags should be Chinese unless the idea is
+inherently English (e.g. a foreign term, a proper noun, code).
+
+1. **Discuss before writing.** Don't turn the first message straight into a
+   note. Ask clarifying/probing questions — what prompted it, what they
+   mean by ambiguous terms, edge cases, how it connects to things they
+   already think about — and keep the conversation going until the idea
+   feels developed enough to write up. This can take several exchanges.
+2. **Write the note as a summary, not a transcript.** Once the idea is
+   developed, elaborate a proper note out of the *whole conversation* —
+   organized by theme, not by Q&A turn. Don't paste the raw dialogue.
+3. **File name**: matches the note's `# 标题` (heading), saved as
+   `notes/<标题>.md`. Chinese filenames are fine; spaces are fine too.
+4. **Frontmatter** at the top of every note:
    ```yaml
    ---
    created: <YYYY-MM-DD>
    tags: []
    ---
    ```
-4. **Link liberally.** Use Obsidian wikilinks (`[[Note Name]]`) to connect
-   a new note to existing related notes, and add a reciprocal link back
-   from those existing notes if it makes sense.
-5. **Update `Home.md` immediately** — every time a note is added, renamed,
+5. **Link liberally.** Use Obsidian wikilinks (`[[笔记名]]`) to connect a
+   new note to existing related notes, and add a reciprocal link back from
+   those existing notes if it makes sense.
+6. **Update `Home.md` immediately** — every time a note is added, renamed,
    or removed, update `Home.md` in the same turn so its links never go
    stale. Group links under topical headings (create a new heading if the
    note doesn't fit an existing one); don't just append to a flat list.
-6. Don't ask permission to create/edit notes or update `Home.md` — that's
-   the expected behavior on every new idea. Do check in if an idea is too
-   thin to turn into a standalone note (suggest folding it into an
-   existing one instead).
+7. Once the note is written and `Home.md` updated, no permission needed —
+   that's expected behavior. But *do* ask before writing the note itself
+   if the conversation hasn't gone deep enough yet to summarize well.
 
 # Conventions
 
