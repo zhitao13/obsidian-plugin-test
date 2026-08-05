@@ -37,14 +37,22 @@ inherently English (e.g. a foreign term, a proper noun, code).
    tags: []
    ---
    ```
-5. **Link liberally.** Use Obsidian wikilinks (`[[笔记名]]`) to connect a
+   Fill `tags` in — never leave it empty. Pick a handful of concise
+   Chinese keywords/themes for the note (topic, domain, concept — whatever
+   someone would search by later). Check other notes in `notes/` first and
+   reuse an existing tag where it genuinely fits, instead of coining a
+   near-duplicate; add a new one when the idea doesn't fit what's there.
+5. **Keep tags current on updates too.** Whenever an existing note's
+   content changes meaningfully, re-check its `tags` — add any that now
+   apply and drop ones that no longer fit. Don't let tags go stale.
+6. **Link liberally.** Use Obsidian wikilinks (`[[笔记名]]`) to connect a
    new note to existing related notes, and add a reciprocal link back from
    those existing notes if it makes sense.
-6. **Update `Home.md` immediately** — every time a note is added, renamed,
+7. **Update `Home.md` immediately** — every time a note is added, renamed,
    or removed, update `Home.md` in the same turn so its links never go
    stale. Group links under topical headings (create a new heading if the
    note doesn't fit an existing one); don't just append to a flat list.
-7. Once the note is written and `Home.md` updated, no permission needed —
+8. Once the note is written and `Home.md` updated, no permission needed —
    that's expected behavior. But *do* ask before writing the note itself
    if the conversation hasn't gone deep enough yet to summarize well.
 
