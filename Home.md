@@ -10,4 +10,6 @@ grouped by topic. Updated automatically whenever a new note is added.
 
 ## Notes
 
-_No notes yet — tell Claude an idea to get started._
+### 感情 / 关系
+
+- [[感情里的小事不能过夜]]

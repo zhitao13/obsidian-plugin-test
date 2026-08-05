@@ -19,26 +19,36 @@ vault content and the plugin code live side by side and don't interact.
 1. **Elaborate, don't transcribe.** Take what the user says and write it up
    as a real note: clear title, organized sections, expand on implications
    or open questions where useful. Don't just paste their message verbatim.
-2. **File name**: Title Case matching the note's `# Heading`, saved as
+2. **Draft a summary first, before writing/pushing anything.** Post the
+   note's content as a chat reply for the user to review. This summary
+   must go deeper than restating what the user said — surface patterns,
+   implications, tensions, or connections that came out of the back-and-forth
+   of the conversation, not just a cleaned-up transcript. Ask the user to
+   edit or approve it.
+3. **Wait for the user's go-ahead** (approval or edits) before creating the
+   note file, updating `Home.md`, committing, or pushing. Fold in any edits
+   the user gives before filing.
+4. **File name**: Title Case matching the note's `# Heading`, saved as
    `notes/<Title Case Name>.md`. Spaces are fine (Obsidian handles them).
-3. **Frontmatter** at the top of every note:
+5. **Frontmatter** at the top of every note:
    ```yaml
    ---
    created: <YYYY-MM-DD>
    tags: []
    ---
    ```
-4. **Link liberally.** Use Obsidian wikilinks (`[[Note Name]]`) to connect
+6. **Link liberally.** Use Obsidian wikilinks (`[[Note Name]]`) to connect
    a new note to existing related notes, and add a reciprocal link back
    from those existing notes if it makes sense.
-5. **Update `Home.md` immediately** — every time a note is added, renamed,
+7. **Update `Home.md` immediately** — every time a note is added, renamed,
    or removed, update `Home.md` in the same turn so its links never go
    stale. Group links under topical headings (create a new heading if the
    note doesn't fit an existing one); don't just append to a flat list.
-6. Don't ask permission to create/edit notes or update `Home.md` — that's
-   the expected behavior on every new idea. Do check in if an idea is too
-   thin to turn into a standalone note (suggest folding it into an
-   existing one instead).
+8. Once the summary is approved, don't ask permission again for the
+   mechanical parts (writing the file, updating `Home.md`, committing,
+   pushing) — that's expected on every approved idea. Do check in if an
+   idea is too thin to turn into a standalone note (suggest folding it
+   into an existing one instead).
 
 # Conventions
 
