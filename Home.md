@@ -10,6 +10,10 @@ grouped by topic. Updated automatically whenever a new note is added.
 
 ## Notes
 
+### 健康 / 生理
+
+- [[避孕方式对比：避孕药与避孕套]]
+
 ### 感情 / 关系
 
 - [[感情里的小事不能过夜]]
