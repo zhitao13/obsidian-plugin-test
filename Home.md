@@ -13,6 +13,7 @@ grouped by topic. Updated automatically whenever a new note is added.
 ### 健康 / 生理
 
 - [[避孕方式对比：避孕药与避孕套]]
+- [[前列腺炎的成因、预防与就医]]
 
 ### 感情 / 关系
 
