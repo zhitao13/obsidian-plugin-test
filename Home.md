@@ -14,6 +14,7 @@ grouped by topic. Updated automatically whenever a new note is added.
 
 - [[避孕方式对比：避孕药与避孕套]]
 - [[前列腺炎的成因、预防与就医]]
+- [[手掌脚底运动后酸麻是肌肉疲劳不是过敏]]
 
 ### 感情 / 关系
 
